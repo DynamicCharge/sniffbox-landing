@@ -56,6 +56,7 @@
     </header>
 
     <main>
+    <div class="title-bg__wrapper">
         <section class="title">
             <div class="title__img-box"><img src="assets/img/title..png" alt=""></div>
             <div class="title__text-box">
@@ -95,6 +96,7 @@
                 </div>
             </div>
         </section>
+    </div>
         <section class="slider" id="slider">
             <div class="slider__controls">
                 <button class="slider__control slider__prev">
@@ -288,6 +290,7 @@
         </section>
         </div>
 
+        <div class="bg__wrapper">
         <section class="buy" id="buy">
             <div class="container-fluid">
                 <h2 class="buy__header">ГДЕ КУПИТЬ</h2>
@@ -322,24 +325,25 @@
                 <div class="buy__map__wrapper">
                     <div id="map" style="width: 100%; height: 500px"></div>
                     <ul class="buy__map__point-list">
-                        <li class="buy__map__point-list__item row">
-                            <span class="point-list__item__heading col-12 col-sm-4 col-lg-3">Центр лазерной медицины NEWME</span>
-                            <span class="point-list__item__address col-12 col-sm-4 col-lg-3">ул. Достоевского, 9</span>
-                            <a href="" class="point-list__item__phone col-12 col-sm-4 col-lg-3">8 (812) 458-01-10</a>
-                            <a href="" class="point-list__item__show col-12 col-sm-4 col-lg-3">Показать на карте</a>
+                        <li class="buy__map__point-list__item d-flex flex-column flex-md-row justify-content-between">
+                            <span class="point-list__item__heading">Центр лазерной медицины NEWME</span>
+                            <span class="point-list__item__address">ул. Достоевского, 9</span>
+                            <a href="" class="point-list__item__phone">8 (812) 458-01-10</a>
+                            <a href="" class="point-list__item__show">Показать на карте</a>
                         </li>
-                        <li class="buy__map__point-list__item row">
-                            <span class="point-list__item__heading col-12 col-sm-4 col-lg-3">Центр лазерной медицины NEWME</span>
-                            <span class="point-list__item__address col-12 col-sm-4 col-lg-3">ул. Достоевского, 9</span>
-                            <a href="" class="point-list__item__phone col-12 col-sm-4 col-lg-3">8 (812) 458-01-10</a>
-                            <a href="" class="point-list__item__show col-12 col-sm-4 col-lg-3">Показать на карте</a>
+                        <li class="buy__map__point-list__item d-flex flex-column flex-md-row justify-content-between">
+                            <span class="point-list__item__heading">Центр лазерной медицины NEWME</span>
+                            <span class="point-list__item__address">ул. Достоевского, 9</span>
+                            <a href="" class="point-list__item__phone">8 (812) 458-01-10</a>
+                            <a href="" class="point-list__item__show">Показать на карте</a>
                         </li>
-                        <li class="buy__map__point-list__item row">
-                            <span class="point-list__item__heading col-12 col-sm-4 col-lg-3">Центр лазерной медицины NEWME</span>
-                            <span class="point-list__item__address col-12 col-sm-4 col-lg-3">ул. Достоевского, 9</span>
-                            <a href="" class="point-list__item__phone col-12 col-sm-4 col-lg-3">8 (812) 458-01-10</a>
-                            <a href="" class="point-list__item__show col-12 col-sm-4 col-lg-3">Показать на карте</a>
+                        <li class="buy__map__point-list__item d-flex flex-column flex-md-row justify-content-between">
+                            <span class="point-list__item__heading">Центр лазерной медицины NEWME</span>
+                            <span class="point-list__item__address">ул. Достоевского, 9</span>
+                            <a href="" class="point-list__item__phone">8 (812) 458-01-10</a>
+                            <a href="" class="point-list__item__show">Показать на карте</a>
                         </li>
+                        
                     </ul>
                 </div>
 
@@ -350,11 +354,9 @@
             <div class="container-fluid">
                 <h2 class="contacts__header">КОНТАКТЫ</h2>
                 <form action="" class="contacts__form row">
-                    <div class="contacts__form__left col-12 col-lg-7 col-xl-12 col-xxl-7 row">
-                        <div class="contacts__form__left__img-box col-12 col-mb-6 col-lg-6">
-                            <img src="assets/img/contacts..png" alt="">
-                        </div>
-                        <div class="contacts__form__left__info col-12 col-md-5 col-lg-5">
+                    <div class="contacts__form__left col-12 col-lg-7 col-xl-7 row">
+                        <img class="contacts__form__left__img-box col-12 col-mb-5 col-lg-5" src="assets/img/contacts..png" alt="">
+                        <div class="contacts__form__left__info col-12 col-md-7 col-lg-7">
                             <span class="contacts__form__left__info__desc">197375, Санкт-Петербург ул. Маршала Новикова, д. 28, к. 2 </span>
                             <a href="" class="contacts__form__left__info__link">+7 (812) 327 37 47</a>
                             <a href="" class="contacts__form__left__info__link">info@pkaspera.ru</a>
@@ -369,13 +371,16 @@
                             </div>
                         </div>
                     </div>
-                    <div class="contacts__form__right col-12 col-lg-5 col-xl-12 col-xxl-5">
+                    <div class="contacts__form__right justify-content-end justify-lg-content-end col-12 col-lg-5">
                         <h3 class="contacts__form__right__header">Связаться с нами</h3>
                         <input type="text" class="contacts__form__right__input" required placeholder="Ваше имя">
                         <input type="text" class="contacts__form__right__input" required placeholder="Телефон">
                         <input type="email" class="contacts__form__right__input" required placeholder="Почта">
                         <label class="contacts__form__right__label">
                             <input type="checkbox">
+                            <div class="contacts__form__right__label__custom-check">
+                                <img src="assets/img/select..svg" alt="">
+                            </div>
                             Согласие на обработку персональных данных                            
                         </label>
                         <button class="contacts__form__right__submit" type="submit">Отправить</button>
@@ -383,6 +388,7 @@
                 </form>
             </div>
         </section>
+    </div>
     </main>
 
     <footer class="footer">

@@ -8543,11 +8543,21 @@ body {
   background: #333333;
   overflow-x: hidden; }
 
+.title-bg__wrapper {
+  background-image: url(../../assets/img/about-bg..png);
+  background-position: 0px 390px;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
 .bg__wrapper {
   background-image: url(../../assets/img/BG..png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover; }
+  .bg__wrapper:last-child {
+    background-image: url(../../assets/img/BG2..png);
+    background-position: left top;
+    background-size: contain; }
 
 .principle {
   background-image: none !important; }
@@ -8795,6 +8805,9 @@ body {
     color: #FFFFFF;
     margin-bottom: 30px; }
   .about .about__text {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1183px;
     font-weight: 400;
     font-size: 30px;
     line-height: 39px;
@@ -8819,6 +8832,7 @@ body {
     background: rgba(255, 255, 255, 0.05);
     backdrop-filter: blur(10px); }
   .about .about__wrapper__item__text {
+    max-width: 161px;
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
@@ -8847,6 +8861,9 @@ body {
     .slider .slider__control.slider__next {
       right: 50px;
       transform: scale(-1); }
+  .slider .slick-track {
+    display: flex;
+    align-items: flex-end; }
   .slider .slider__wrap__slide {
     display: flex;
     position: relative; }
@@ -8862,6 +8879,10 @@ body {
     /* identical to box height */
     color: #FFFFFF;
     margin-bottom: 0; }
+    @media screen and (max-width: 1440px) {
+      .slider .slider__title {
+        font-size: 64px;
+        line-height: 78px; } }
     @media screen and (max-width: 1024px) {
       .slider .slider__title {
         font-size: 48px;
@@ -8938,6 +8959,10 @@ body {
   color: #FFFFFF;
   margin-bottom: 0;
   margin-bottom: 60px; }
+  @media screen and (max-width: 1440px) {
+    .catalog .catalog__header {
+      font-size: 64px;
+      line-height: 78px; } }
   @media screen and (max-width: 1024px) {
     .catalog .catalog__header {
       font-size: 48px;
@@ -9041,6 +9066,10 @@ body {
     color: #FFFFFF;
     margin-bottom: 0;
     margin-bottom: 60px; }
+    @media screen and (max-width: 1440px) {
+      .buy .buy__header {
+        font-size: 64px;
+        line-height: 78px; } }
     @media screen and (max-width: 1024px) {
       .buy .buy__header {
         font-size: 48px;
@@ -9085,11 +9114,15 @@ body {
     margin-left: 30px; }
   .buy #map {
     margin-bottom: 63px; }
-  .buy .buy__map__point-list__item:not(:last-child) {
-    margin-bottom: 30px; }
-  .buy .buy__map__point-list__item span, .buy .buy__map__point-list__item a {
-    display: inline-block;
-    color: #FFFFFF; }
+  .buy .buy__map__point-list {
+    padding: 0; }
+  .buy .buy__map__point-list__item {
+    flex-wrap: wrap; }
+    .buy .buy__map__point-list__item:not(:last-child) {
+      margin-bottom: 30px; }
+    .buy .buy__map__point-list__item span, .buy .buy__map__point-list__item a {
+      display: inline-block;
+      color: #FFFFFF; }
   .buy .point-list__item__heading {
     font-weight: 600;
     font-size: 18px;
@@ -9100,6 +9133,7 @@ body {
     line-height: 24px;
     text-decoration: none; }
   .buy .point-list__item__show {
+    margin-right: 170px;
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
@@ -9131,6 +9165,10 @@ body {
     color: #FFFFFF;
     margin-bottom: 0;
     margin-bottom: 47px; }
+    @media screen and (max-width: 1440px) {
+      .contacts .contacts__header {
+        font-size: 64px;
+        line-height: 78px; } }
     @media screen and (max-width: 1024px) {
       .contacts .contacts__header {
         font-size: 48px;
@@ -9139,6 +9177,10 @@ body {
       .contacts .contacts__header {
         font-size: 30px;
         line-height: 37px; } }
+  .contacts .contacts__form__left__img-box {
+    object-fit: contain;
+    position: relative;
+    top: -20px; }
   .contacts .contacts__form__left__info span {
     display: block; }
   .contacts .contacts__form__left__info__desc {
@@ -9151,6 +9193,7 @@ body {
     color: #FFFFFF;
     margin-bottom: 30px; }
   .contacts .contacts__form__left__info__link {
+    display: block;
     font-family: 'Montserrat';
     font-style: normal;
     font-weight: 500;
@@ -9161,6 +9204,9 @@ body {
     text-decoration: none; }
   .contacts .header__nav__socials {
     margin-top: 73px; }
+  .contacts .contacts__form__right {
+    max-width: 625px;
+    margin-left: auto; }
   .contacts .contacts__form__right__header {
     font-weight: 600;
     font-size: 24px;
@@ -9186,6 +9232,8 @@ body {
     .contacts .contacts__form__right__input:not(:last-child) {
       margin-bottom: 13px; }
   .contacts .contacts__form__right__label {
+    position: relative;
+    margin-top: 31px;
     font-weight: 400;
     font-size: 14px;
     line-height: 14px;
@@ -9194,7 +9242,24 @@ body {
     align-items: center;
     color: #FFFFFF; }
     .contacts .contacts__form__right__label input {
-      margin-right: 20px; }
+      visibility: hidden;
+      position: absolute; }
+      .contacts .contacts__form__right__label input:checked + .contacts__form__right__label__custom-check img {
+        visibility: visible; }
+  .contacts .contacts__form__right__label__custom-check {
+    width: 25px;
+    height: 25px;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center; }
+    .contacts .contacts__form__right__label__custom-check img {
+      visibility: hidden;
+      width: 15px;
+      height: 15px;
+      object-fit: contain; }
   .contacts .contacts__form__right__submit {
     display: block;
     max-width: 280px;
@@ -9355,6 +9420,10 @@ body {
       text-decoration-line: underline; }
 
 @media screen and (max-width: 1440px) {
+  .contacts .contacts__form__right {
+    max-width: 403px; }
+  .buy .point-list__item__show {
+    margin-right: 50px; }
   .good .good__left__aside-slider__item {
     margin-bottom: 10px; }
   .good .good__left__aside-slider {
@@ -9390,16 +9459,21 @@ body {
     .slider__img-box img {
       max-width: inherit;
       display: block;
-      object-fit: contain; }
+      object-fit: contain;
+      height: 580px; }
   .about .about__wrapper__item__img-box {
     padding: 25px 54px;
     min-width: unset;
     width: 176px;
     height: 175px; }
   .about .about__wrapper__item__text {
-    font-size: 24px; }
+    font-size: 24px;
+    line-height: 28px; }
   .about .about__text {
-    font-size: 24px; }
+    font-size: 24px;
+    max-width: 887px;
+    margin-left: auto;
+    margin-right: auto; }
   .about .about__heading {
     font-size: 24px; }
   .title .title__header {
@@ -9514,7 +9588,12 @@ body {
     line-height: 108.18%;
     margin-bottom: 58px; } }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 770px) {
+  .contacts .contacts__form__right {
+    margin-left: 0; }
+  .slider .slider__main-header {
+    font-size: 180px;
+    line-height: 90px; }
   .good .good__left {
     padding: 40px 50px; }
   .good {
@@ -9537,6 +9616,8 @@ body {
   .buy .point-list__item__heading {
     font-size: 14px;
     line-height: 20px; }
+  .buy .buy__map__point-list__item * {
+    margin-right: 25px; }
   .custom-select__placeholder {
     font-size: 18px;
     line-height: 20px; }
@@ -9544,11 +9625,16 @@ body {
     width: 525px !important; }
   .catalog .catalog__slider__control.catalog__slider__prev {
     margin-right: 0; }
+  .catalog .catalog__header {
+    margin-bottom: 40px; }
   .about .about__wrapper__item__img-box img {
     width: 60px;
     height: 59px; }
   .about .about__wrapper__item__img-box {
     padding: 32px 33px; }
+  .about {
+    padding-top: 0;
+    padding-bottom: 60px; }
   .title .title__wrap {
     bottom: 35px; }
   .title .title__main-header {
@@ -9574,6 +9660,22 @@ body {
     justify-content: center; } }
 
 @media screen and (max-width: 420px) {
+  .principle .principle__heading {
+    font-size: 20px;
+    line-height: 27px;
+    margin-bottom: 30px; }
+  .about .about__heading {
+    font-size: 18px;
+    line-height: 24px; }
+  .about .about__text {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 60px; }
+  .buy .buy__map__point-list__item span, .buy .buy__map__point-list__item a {
+    margin-top: 0;
+    margin-bottom: 10px; }
+  .point-list__item__heading {
+    margin-bottom: 15px; }
   .good .good__left__aside-slider__item {
     margin-right: 3px; }
   .good .good__left__main-slider {
@@ -9682,7 +9784,7 @@ body {
     font-size: 55px;
     line-height: 55px; }
   .title .title__text-box {
-    padding-top: 95px;
+    padding-top: 65px;
     padding-bottom: 93px; }
   .title__img-box {
     height: 250px;
