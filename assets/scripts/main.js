@@ -19861,6 +19861,7 @@ $(document).ready(function() {
                 variableWidth: true,
                 centerMode: true,
                 slidesToShow: 1,
+                dots: true
               }
             }
         ]
