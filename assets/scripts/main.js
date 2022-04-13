@@ -19847,12 +19847,20 @@ $(document).ready(function() {
               }
             },
             {
+              breakpoint: 521,
+              settings: {
+                variableWidth: false,
+                centerMode: false,
+                slidesToShow: 2,
+                dots: true
+              }
+            },
+            {
               breakpoint: 421,
               settings: {
                 variableWidth: true,
                 centerMode: true,
                 slidesToShow: 1,
-                dots: true
               }
             }
         ]
