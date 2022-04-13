@@ -9794,6 +9794,9 @@ ymaps {
     max-width: 100%; } }
 
 @media screen and (max-width: 520px) {
+  .footer__logo img {
+    margin: 0 auto;
+    display: block; }
   .navbar-collapse {
     top: 83px; }
   .catalog__slider__item__img-box {
