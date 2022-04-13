@@ -19799,11 +19799,12 @@ $(document).ready(function() {
 
             responsive: [
               {
-                breakpoint: 321,
+                breakpoint: 421,
                 settings: {
+                  dots: true,
                   arrows: false
                 }
-              },
+              }
             ],
 
             
@@ -19830,6 +19831,15 @@ $(document).ready(function() {
               settings: {
                 variableWidth: true,
                 slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 421,
+              settings: {
+                variableWidth: true,
+                centerMode: true,
+                slidesToShow: 1,
+                dots: true
               }
             }
         ]
