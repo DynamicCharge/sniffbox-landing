@@ -9690,6 +9690,8 @@ ymaps {
     margin-bottom: 58px; } }
 
 @media screen and (max-width: 991px) {
+  .about .about__wrapper__item__img-box {
+    padding: 0; }
   .about .about__heading {
     padding-top: 20px; }
   .title .title__main-header {
