@@ -9543,7 +9543,8 @@ ymaps {
       .catalog .catalog__slider__item .catalog__slider__item__img-box img {
         display: block;
         max-width: inherit;
-        object-fit: contain; }
+        object-fit: contain;
+        width: 100%; }
   .slider .slider__right__text {
     font-size: 16px; }
   .slider .slider__main-header {
