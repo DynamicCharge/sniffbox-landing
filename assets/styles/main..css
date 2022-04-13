@@ -8543,6 +8543,9 @@ body {
   background: #333333;
   overflow-x: hidden; }
 
+ymaps {
+  color: black; }
+
 .title-bg__wrapper {
   background-image: url(../../assets/img/about-bg..png);
   background-position: 0px 390px;
@@ -9115,7 +9118,17 @@ body {
   .buy #map {
     margin-bottom: 63px; }
   .buy .buy__map__point-list {
-    padding: 0; }
+    padding: 0;
+    visibility: hidden;
+    opacity: 0;
+    transition: .3s ease-in-out;
+    pointer-events: none;
+    height: 0; }
+    .buy .buy__map__point-list.point-list_active {
+      visibility: visible;
+      opacity: 1;
+      pointer-events: initial;
+      height: unset; }
   .buy .buy__map__point-list__item {
     flex-wrap: wrap; }
     .buy .buy__map__point-list__item:not(:last-child) {
@@ -9131,7 +9144,8 @@ body {
     font-weight: 400;
     font-size: 18px;
     line-height: 24px;
-    text-decoration: none; }
+    text-decoration: none;
+    max-width: 200px; }
   .buy .point-list__item__show {
     margin-right: 170px;
     font-weight: 400;
@@ -9141,7 +9155,7 @@ body {
     text-decoration-line: underline;
     display: flex !important;
     justify-content: start;
-    align-items: center; }
+    align-items: flex-start; }
     .buy .point-list__item__show::before {
       content: '';
       width: 15px;
@@ -9228,7 +9242,8 @@ body {
     /* or 133% */
     color: #FFFFFF; }
     .contacts .contacts__form__right__input::placeholder {
-      opacity: 1; }
+      opacity: 1 !important;
+      color: #FFFFFF; }
     .contacts .contacts__form__right__input:not(:last-child) {
       margin-bottom: 13px; }
   .contacts .contacts__form__right__label {

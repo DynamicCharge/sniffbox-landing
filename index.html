@@ -314,36 +314,44 @@
                             <span class="custom-select__icon"><img src="assets/img/select..svg" alt=""></span>
                         </button>
                       <ul class="custom-select__list" role="listbox">
-                        <li class="custom-select__item" tabindex="0" data-select-value="пятница, 26 марта" aria-selected="false" role="option">Санкт-Петербург</li>
-                        <li class="custom-select__item" tabindex="0" data-select-value="суббота, 27 марта" aria-selected="false" role="option">Воронеж</li>
-                        <li class="custom-select__item" tabindex="0" data-select-value="воскресенье, 28 марта" aria-selected="false" role="option">Москва</li>
-                        <li class="custom-select__item" tabindex="0" data-select-value="понедельник, 29 марта" aria-selected="false" role="option">Самара</li>
+                        <li class="custom-select__item" tabindex="0" data-select-value="Санкт-Петербург" aria-selected="false" role="option">Санкт-Петербург</li>
+                        <li class="custom-select__item" tabindex="0" data-select-value="Воронеж" aria-selected="false" role="option">Воронеж</li>
+                        <li class="custom-select__item" tabindex="0" data-select-value="Москва" aria-selected="false" role="option">Москва</li>
+                        <li class="custom-select__item" tabindex="0" data-select-value="Самара" aria-selected="false" role="option">Самара</li>
                       </ul>
                     </div>
                     <a href="#" class="buy__select__link">Найти</a>   
                 </div>
                 <div class="buy__map__wrapper">
                     <div id="map" style="width: 100%; height: 500px"></div>
-                    <ul class="buy__map__point-list">
+                    <ul class="buy__map__point-list point-list_active" data-select-value="Санкт-Петербург">
                         <li class="buy__map__point-list__item d-flex flex-column flex-md-row justify-content-between">
-                            <span class="point-list__item__heading">Центр лазерной медицины NEWME</span>
+                            <span class="point-list__item__heading">Центр лазерной медицины NEWME1</span>
                             <span class="point-list__item__address">ул. Достоевского, 9</span>
                             <a href="" class="point-list__item__phone">8 (812) 458-01-10</a>
-                            <a href="" class="point-list__item__show">Показать на карте</a>
+                            <a href="" class="point-list__item__show" data-map-center="Центр лазерной медицины NEWME1">Показать на карте</a>
                         </li>
                         <li class="buy__map__point-list__item d-flex flex-column flex-md-row justify-content-between">
-                            <span class="point-list__item__heading">Центр лазерной медицины NEWME</span>
+                            <span class="point-list__item__heading">Центр лазерной медицины NEWME2</span>
                             <span class="point-list__item__address">ул. Достоевского, 9</span>
                             <a href="" class="point-list__item__phone">8 (812) 458-01-10</a>
-                            <a href="" class="point-list__item__show">Показать на карте</a>
+                            <a href="" class="point-list__item__show" data-map-center="Центр лазерной медицины NEWME2">Показать на карте</a>
                         </li>
                         <li class="buy__map__point-list__item d-flex flex-column flex-md-row justify-content-between">
-                            <span class="point-list__item__heading">Центр лазерной медицины NEWME</span>
+                            <span class="point-list__item__heading">Центр лазерной медицины NEWME3</span>
                             <span class="point-list__item__address">ул. Достоевского, 9</span>
                             <a href="" class="point-list__item__phone">8 (812) 458-01-10</a>
-                            <a href="" class="point-list__item__show">Показать на карте</a>
+                            <a href="" class="point-list__item__show" data-map-center="Центр лазерной медицины NEWME3">Показать на карте</a>
                         </li>
                         
+                    </ul>
+                    <ul class="buy__map__point-list" data-select-value="Москва">
+                        <li class="buy__map__point-list__item d-flex flex-column flex-md-row justify-content-between">
+                            <span class="point-list__item__heading">Центр медицины NEWME</span>
+                            <span class="point-list__item__address">г.Москва ул. Победы, 9</span>
+                            <a href="" class="point-list__item__phone">8 (812) 458-01-10</a>
+                            <a href="" class="point-list__item__show" data-map-center="Центр медицины NEWME">Показать на карте</a>
+                        </li>
                     </ul>
                 </div>
 
