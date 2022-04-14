@@ -9842,6 +9842,8 @@ nobr {
     max-width: 100%; } }
 
 @media screen and (max-width: 520px) {
+  .slider .slider__img-box {
+    height: 340px; }
   .contacts .contacts__form__right__label {
     font-weight: 500;
     font-size: 12px;
