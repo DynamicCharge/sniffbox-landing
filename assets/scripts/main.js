@@ -19890,7 +19890,7 @@ $(document).ready(function() {
 
         responsive: [
           {
-            breakpoint: 789,
+            breakpoint: 989,
             settings: {
               slidesToShow: 3,
             }
