@@ -9843,7 +9843,7 @@ nobr {
 
 @media screen and (max-width: 520px) {
   .slider .slider__img-box {
-    height: 340px; }
+    height: max-content; }
   .contacts .contacts__form__right__label {
     font-weight: 500;
     font-size: 12px;
@@ -10009,7 +10009,6 @@ nobr {
     padding-top: 65px;
     padding-bottom: 93px; }
   .title__img-box {
-    height: 250px;
     width: 100%; }
     .title__img-box img {
       padding: 0 25px; }
@@ -10030,7 +10029,19 @@ nobr {
     flex-direction: row;
     padding: 20px 0; }
   .header__logo img {
-    max-width: 121px; } }
+    max-width: 121px; }
+  .title .title__header {
+    font-size: 24px;
+    line-height: 108.18%;
+    margin-bottom: 30px; } }
+
+@media screen and (max-width: 470px) {
+  .title__img-box {
+    height: 300px; } }
+
+@media screen and (max-width: 360px) {
+  .title__img-box {
+    height: 200px; } }
 
 
 /*# sourceMappingURL=main..css.map*/
