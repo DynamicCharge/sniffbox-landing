@@ -9643,7 +9643,8 @@ nobr {
 
 @media screen and (max-width: 1024px) {
   .principle {
-    padding-top: 20px; }
+    padding-top: 20px;
+    padding-bottom: 30px; }
   .slider .slick-track {
     align-items: flex-start; }
   .slider .slider__right__link {
@@ -9690,6 +9691,7 @@ nobr {
     font-size: 36px;
     line-height: 108.18%; }
   .slider .slider__right__img {
+    min-width: 116px;
     margin-bottom: 0;
     margin-right: 29px; }
   .slider__right__text__wrap {
