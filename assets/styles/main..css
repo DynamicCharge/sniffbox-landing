@@ -9774,6 +9774,8 @@ nobr {
       text-align: left; } }
 
 @media screen and (max-width: 790px) {
+  .contacts {
+    padding-top: 40px; }
   .slider .slider__right__text {
     font-size: 14px;
     line-height: 20px; }
