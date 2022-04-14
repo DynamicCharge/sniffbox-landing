@@ -9545,7 +9545,6 @@ ymaps {
   .catalog .catalog__slider__item__heading {
     font-size: 24px; }
   .catalog .catalog__slider__item {
-    max-width: 245px;
     margin-right: 13px; }
     .catalog .catalog__slider__item .catalog__slider__item__img-box {
       overflow: hidden;
@@ -9569,7 +9568,6 @@ ymaps {
       object-fit: contain;
       height: 580px; }
   .about .about__wrapper__item__img-box {
-    padding: 25px 54px;
     min-width: unset;
     width: 176px;
     height: 175px; }
@@ -9702,7 +9700,6 @@ ymaps {
 
 @media screen and (max-width: 991px) {
   .catalog .catalog__slider__item {
-    max-width: 270px;
     margin-right: 23px; }
   .contacts .contacts__form__right {
     margin-left: 0; }

@@ -19842,7 +19842,7 @@ $(document).ready(function() {
             {
               breakpoint: 1025,
               settings: {
-                variableWidth: true,
+                variableWidth: false,
                 slidesToShow: 2,
               }
             },
