@@ -8949,7 +8949,7 @@ nobr {
     display: block;
     object-fit: contain; }
   .slider .slider__right {
-    padding: 62px 100px 190px 83px;
+    padding: 103px 100px 190px 83px;
     max-width: 50vw;
     width: 100%; }
   .slider .slider__right__link {
@@ -9583,6 +9583,8 @@ nobr {
         object-fit: cover;
         width: 100%;
         height: 292px; }
+  .slider .slider__right {
+    padding-top: 65px; }
   .slider .slider__right__text {
     font-size: 16px;
     line-height: 28px; }
@@ -9617,7 +9619,7 @@ nobr {
   .title .title__text-box {
     padding: 99px 60px 227px; }
   .title .title__wrap {
-    bottom: 130px; }
+    bottom: 100px; }
   .title .title__main-header {
     font-size: 179px; }
   .title__img-box {
@@ -9737,9 +9739,16 @@ nobr {
   .title .title__header {
     font-size: 37px;
     line-height: 108.18%;
-    margin-bottom: 58px; } }
+    margin-bottom: 58px; }
+  .good .good__left {
+    max-width: 100%;
+    padding: 40px 50px; }
+  .good {
+    grid-template-columns: 1fr; } }
 
 @media screen and (max-width: 991px) {
+  .header .navbar-collapse {
+    padding-left: 25px; }
   .slider .slider__right__img {
     min-width: 116px; }
   .about {
@@ -9790,11 +9799,6 @@ nobr {
   .slider .slider__main-header {
     font-size: 180px;
     line-height: 90px; }
-  .good .good__left {
-    max-width: 100%;
-    padding: 40px 50px; }
-  .good {
-    grid-template-columns: 1fr; }
   .buy .point-list__item__show {
     font-size: 14px;
     line-height: 20px;
@@ -9916,6 +9920,8 @@ nobr {
     width: 270px; }
   .good .good__left__aside-slider {
     width: inherit; }
+  .good .good__left {
+    padding: 40px 25px; }
   .good .good__left__wrapper {
     flex-direction: column-reverse;
     align-items: flex-start; }
@@ -9955,9 +9961,14 @@ nobr {
   .buy {
     padding-top: 60px; }
   .catalog .catalog__slider__text-box {
-    min-height: 210px; }
+    min-height: 100px; }
+  .catalog .catalog__slider__item__desc {
+    max-width: 225px;
+    width: 100%; }
   .catalog .catalog__slider__item__heading {
-    margin: 20px 0 10px; }
+    margin: 20px 0 10px;
+    max-width: 225px;
+    width: 100%; }
   .catalog .catalog__header {
     margin-bottom: 30px; }
   .catalog .catalog__slider__item__link {
@@ -10011,7 +10022,7 @@ nobr {
     font-size: 55px;
     line-height: 55px; }
   .title .title__text-box {
-    padding-top: 65px;
+    padding-top: 95px;
     padding-bottom: 93px; }
   .title__img-box {
     width: 100%; }
@@ -10041,6 +10052,8 @@ nobr {
     margin-bottom: 30px; } }
 
 @media screen and (max-width: 470px) {
+  .title .title__text-box {
+    padding-top: 75px; }
   .title__img-box {
     height: 300px; }
   .slider .slider__img-box {
