@@ -8991,7 +8991,7 @@ nobr {
   .slider .slider__main-header {
     position: absolute;
     bottom: 95px;
-    left: 50%;
+    left: 60%;
     transform: translateX(-50%);
     font-family: 'Bauhaus93';
     font-style: normal;
@@ -9544,7 +9544,7 @@ nobr {
     .footer .footer__bot a {
       text-decoration-line: underline; }
 
-@media screen and (max-width: 1440px) {
+@media screen and (max-width: 1500px) {
   .slider .slider__right__img {
     max-width: 116px;
     max-height: 96px; }
