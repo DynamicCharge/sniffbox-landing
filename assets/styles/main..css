@@ -9181,7 +9181,8 @@ nobr {
     position: relative; }
   .buy .buy__slider__item {
     width: 248px;
-    height: 115px;
+    max-height: 135px;
+    height: 135px;
     margin-right: 20px;
     background-color: #fff;
     display: flex;
