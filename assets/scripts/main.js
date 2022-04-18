@@ -8271,9 +8271,9 @@ var ___HTML_LOADER_IMPORT_23___ = new URL(/* asset import */ __webpack_require__
 var ___HTML_LOADER_IMPORT_24___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/relax.png */ "./assets/img/relax.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_25___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/active.png */ "./assets/img/active.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_26___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/buy-slider-control.svg */ "./assets/img/buy-slider-control.svg"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/buy1.png */ "./assets/img/buy1.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/buy2.png */ "./assets/img/buy2.png"), __webpack_require__.b);
-var ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/buy3.png */ "./assets/img/buy3.png"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_27___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/buy3.jpg */ "./assets/img/buy3.jpg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_28___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/buy1.jpg */ "./assets/img/buy1.jpg"), __webpack_require__.b);
+var ___HTML_LOADER_IMPORT_29___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/buy2.jpg */ "./assets/img/buy2.jpg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_30___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/select.svg */ "./assets/img/select.svg"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_31___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/contacts.png */ "./assets/img/contacts.png"), __webpack_require__.b);
 var ___HTML_LOADER_IMPORT_32___ = new URL(/* asset import */ __webpack_require__(/*! ./assets/img/footer-logo.svg */ "./assets/img/footer-logo.svg"), __webpack_require__.b);
@@ -19329,36 +19329,36 @@ module.exports = __webpack_require__.p + "assets/img/buy-slider-control..svg";
 
 /***/ }),
 
-/***/ "./assets/img/buy1.png":
+/***/ "./assets/img/buy1.jpg":
 /*!*****************************!*\
-  !*** ./assets/img/buy1.png ***!
+  !*** ./assets/img/buy1.jpg ***!
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/img/buy1..png";
+module.exports = __webpack_require__.p + "assets/img/buy1..jpg";
 
 /***/ }),
 
-/***/ "./assets/img/buy2.png":
+/***/ "./assets/img/buy2.jpg":
 /*!*****************************!*\
-  !*** ./assets/img/buy2.png ***!
+  !*** ./assets/img/buy2.jpg ***!
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/img/buy2..png";
+module.exports = __webpack_require__.p + "assets/img/buy2..jpg";
 
 /***/ }),
 
-/***/ "./assets/img/buy3.png":
+/***/ "./assets/img/buy3.jpg":
 /*!*****************************!*\
-  !*** ./assets/img/buy3.png ***!
+  !*** ./assets/img/buy3.jpg ***!
   \*****************************/
 /***/ ((module, __unused_webpack_exports, __webpack_require__) => {
 
 "use strict";
-module.exports = __webpack_require__.p + "assets/img/buy3..png";
+module.exports = __webpack_require__.p + "assets/img/buy3..jpg";
 
 /***/ }),
 
